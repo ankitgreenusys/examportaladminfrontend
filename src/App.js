@@ -5,6 +5,7 @@ import { ToastContainer } from "react-toastify";
 import { Routes, Route } from "react-router-dom";
 import "react-toastify/dist/ReactToastify.css";
 
+import Home from "./Components/Home";
 import Header from "./Components/Header";
 import Login from "./Components/Login";
 import AddTeacher from "./Components/AddTeacher";
@@ -27,7 +28,7 @@ function App() {
       />
       <Header />
       <Routes>
-        <Route path="/" element={<h1>Home</h1>} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<h1>About</h1>} />
         <Route path="/contact" element={<h1>Contact</h1>} />
         <Route path="/teacherlogin" element={<Login type="teacher" />} />

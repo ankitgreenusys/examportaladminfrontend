@@ -27,9 +27,6 @@ const Index = () => {
           </>
         ) : (
           <>
-            <Link to="/details" className="btn mx-2 btn-white">
-              {user.name}
-            </Link>
             {userType === "admin" ? (
               <>
                 <Link to="addteacher" className="btn mx-2 btn-white">
