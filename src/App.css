@@ -1,0 +1,228 @@
+body {
+  background: #222d32;
+  font-family: "Roboto", sans-serif;
+}
+
+/* @import url(https://unpkg.com/@webpixels/css/dist/index.css); */
+
+.white-header {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 1rem;
+  /* width: 100%; */
+  text-align: center;
+  margin: 1rem;
+  color: var(--bg);
+}
+
+.white-box {
+  width: 80vw;
+  background: #fff;
+  color: var(--bg);
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+.exambtn {
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 1rem;
+  height: max-content;
+}
+
+.btn-green {
+  background: #0ac07d;
+}
+
+.btn-red {
+  background: #ff0000;
+}
+
+.btn-warning {
+  background: #ffc107;
+}
+
+.btn-white,
+.btn-white:hover {
+  background: #fff;
+  color: #000;
+}
+
+.bottom-btns {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  width: 80vw;
+}
+
+.myexamtable {
+  overflow-x: scroll;
+}
+
+.myexamtable .table {
+  width: 100%;
+}
+.myexamtable .table thead th {
+  border: none;
+  padding: 30px;
+  font-size: 13px;
+  font-weight: 500;
+  color: gray;
+}
+.myexamtable .table thead tr {
+  background: #fff;
+  border-bottom: 4px solid #eceffa;
+}
+.myexamtable .table tbody tr {
+  margin-bottom: 10px;
+  border-bottom: 4px solid #f8f9fd;
+}
+
+.myexamtable .table tbody th,
+.myexamtable .table tbody td {
+  border: none;
+  padding: 30px;
+  font-size: 14px;
+  background: #fff;
+  vertical-align: middle;
+}
+.myexamtable .table tbody td.status span {
+  position: relative;
+  border-radius: 30px;
+  padding: 4px 10px;
+}
+
+.myexamtable .table tbody td.status .active {
+  background: #cff6dd;
+  color: #1fa750;
+}
+
+.myexamtable .table tbody td.status .waiting {
+  background: #fdf5dd;
+  color: #cfa00c;
+}
+
+.myexamtable .table tbody td.status .inactive {
+  background: #f9d6d6;
+  color: #f44336;
+}
+
+.myexamtable .table tbody td .email span {
+  display: block;
+}
+.myexamtable .table tbody td .email span:last-child {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.3);
+}
+.myexamtable .table tbody td .close {
+  font-size: 17px;
+  color: #dc3545;
+  border: none;
+  background: transparent;
+}
+
+.myexampagi .page-link {
+  display: block;
+  color: #673ab7 !important;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #673ab7 !important;
+  cursor: pointer;
+}
+
+.myexampagi .page-link:hover {
+  color: #fff !important;
+  background-color: #673ab7;
+  border-color: #024dbc;
+}
+
+.modal-confirm {
+  color: #636363;
+  width: 400px;
+}
+.modal-confirm .modal-content {
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  font-size: 14px;
+}
+.modal-confirm .modal-header {
+  border-bottom: none;
+  position: relative;
+}
+.modal-confirm h4 {
+  text-align: center;
+  font-size: 26px;
+  margin: 30px 0 -10px;
+}
+.modal-confirm .close {
+  position: absolute;
+  top: -5px;
+  right: -2px;
+}
+.modal-confirm .modal-body {
+  color: #999;
+}
+.modal-confirm .modal-footer {
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 13px;
+  padding: 10px 15px 25px;
+}
+.modal-confirm .modal-footer a {
+  color: #999;
+}
+.modal-confirm .icon-box {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  border-radius: 50%;
+  z-index: 9;
+  text-align: center;
+  border: 3px solid #f15e5e;
+}
+.modal-confirm .icon-box i {
+  color: #f15e5e;
+  font-size: 46px;
+  display: inline-block;
+  margin-top: 13px;
+}
+.modal-confirm .btn,
+.modal-confirm .btn:active {
+  color: #fff;
+  border-radius: 4px;
+  background: #60c7c1;
+  text-decoration: none;
+  transition: all 0.4s;
+  line-height: normal;
+  min-width: 120px;
+  border: none;
+  min-height: 40px;
+  border-radius: 3px;
+  margin: 0 5px;
+}
+.modal-confirm .btn-secondary {
+  background: #c1c1c1;
+}
+.modal-confirm .btn-secondary:hover,
+.modal-confirm .btn-secondary:focus {
+  background: #a8a8a8;
+}
+.modal-confirm .btn-danger {
+  background: #f15e5e;
+}
+.modal-confirm .btn-danger:hover,
+.modal-confirm .btn-danger:focus {
+  background: #ee3535;
+}
+.trigger-btn {
+  display: inline-block;
+  margin: 100px auto;
+}
